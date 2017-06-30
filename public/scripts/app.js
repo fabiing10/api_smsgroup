@@ -7,8 +7,8 @@
         'angular-loading-bar'
     ])
         .constant('urls', {
-            BASE: 'http://api.gracialab.com/',
-            BASE_API: 'http://api.gracialab.com/'
+            BASE: 'http://api.gracialab.com',
+            BASE_API: 'http://api.gracialab.com'
         })
         .config(['$routeProvider', '$httpProvider', function ($routeProvider, $httpProvider) {
             $routeProvider.
